@@ -75,11 +75,12 @@ export default function Header() {
 
         {/* Apply Now Button - Desktop */}
         <div className="hidden md:block">
+        <Link to="/form" className="">
           <button className="border-2 border-green-700 text-green-800 font-medium px-4 lg:px-6 py-2 rounded hover:bg-green-50 transition duration-300">
-          <Link to="/form" className="">
+         
            Apply
-          </Link>
-          </button>
+         
+          </button>  </Link>
         </div>
       </nav>
 
