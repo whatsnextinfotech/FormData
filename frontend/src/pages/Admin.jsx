@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
+import TestimonialSlider from '../components/Testrimonial';
 const apiUrl = import.meta.env.VITE_API_URL;
 
 function Dashboard() {
@@ -443,6 +444,7 @@ function Dashboard() {
           {renderUserDetails()}
         </div>
       </div>
+     
     </div>
   );
 }

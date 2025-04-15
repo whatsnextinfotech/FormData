@@ -3,7 +3,7 @@ import { ArrowRight, DollarSign, CreditCard, TrendingUp, Home } from 'lucide-rea
 
 export default function PulseCashHomepage() {
   return (
-    <div className="max-w-7xl mx-auto px-4 py-12 font-sans">
+    <div className="max-w-7xl mx-auto px-4 py-1 mt-0 font-sans my-0 md:mb-36 md:py-8">
       {/* Hero Section */}
       <div className="max-w-7xl mx-auto px-4 py-12 font-sans relative">
       <div className="grid md:grid-cols-2 gap-8 items-center mb-16">
@@ -21,15 +21,15 @@ export default function PulseCashHomepage() {
           {/* Image Section - Left */}
           <div className="w-full md:w-1/2 relative md:absolute">
             <img 
-              src="https://moonriseloans.com/assets/images/why-us.jpg" 
+              src="https://media.istockphoto.com/id/1413761479/photo/mature-couple-meeting-financial-advisor-for-investment.jpg?s=612x612&w=0&k=20&c=kKraGQ3d_90VsQVIwAx6mi3gNsiytiLT9jlEbmEh1lE=" 
               alt="Senior couple reviewing loan documents"
-              className="rounded-lg w-full md:w-fit h-[50vh] md:h-[70vh] md:mt-60 object-cover shadow-lg" 
+              className="rounded-lg w-full md:w-fit h-[50vh] md:h-[55vh] md:mt-60 object-cover shadow-lg" 
             />
           </div>
         </div>
       </div>
  
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-12 relative  ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-1 relative md:absolute   ">
         <div className="bg-green-50 p-6 rounded-lg">
           <div className="flex items-center mb-4">
             <div className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center mr-3">
@@ -74,17 +74,17 @@ export default function PulseCashHomepage() {
       {/* <div className="h-96 md:h-[650px] lg:h-[700px]"></div> */}
     </div>
 
-    <div className=' relative'></div>
-      {/* Stats Section */}
+    {/* <div className=' relative'></div> */}
+      {/* Stats Section
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16 text-center relative">
         <StatCard endValue={681} suffix="+" description="Volunteers Participated" />
         <StatCard endValue={80} suffix="k+" description="Veteran Home Completed" />
         <StatCard endValue={27} suffix="+" description="Years in Business" />
         <StatCard endValue={89} suffix="m+" description="Customer Worldwide" />
-      </div>
+      </div> */}
 
       {/* Process Section */}
-      <div className="text-center mb-16">
+      {/* <div className="text-center mb-16">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 max-w-3xl mx-auto mb-8">
           Pulsecash has a simple online process for loan applications
         </h2>
@@ -112,7 +112,7 @@ export default function PulseCashHomepage() {
         <button className="bg-green-700 hover:bg-green-800 text-white font-medium py-3 px-10 rounded-lg transition-colors">
           Apply Now <ArrowRight className="inline ml-2" size={18} />
         </button>
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 
 export default function LoanProcess() {
   return (
@@ -14,7 +15,7 @@ export default function LoanProcess() {
       {/* Main Heading */}
       <div className="text-center mb-16">
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-zinc-900 max-w-3xl mx-auto">
-          Moon Rise Loan has a simple online process for loan applications
+        Pulsecash has a simple online process for loan applications
         </h1>
       </div>
 
@@ -41,9 +42,12 @@ export default function LoanProcess() {
 
       {/* Apply Now Button */}
       <div className="flex justify-center mb-12">
-        <button className="bg-green-700 hover:bg-green-800 text-white font-medium py-3 px-10 rounded">
-          Apply Now
-        </button>
+      <Link to="/form" className="">
+              <button className="bg-green-700 text-white font-medium px-6 py-3 rounded hover:bg-green-800 transition duration-300">
+              
+           Apply
+          
+              </button> </Link>
       </div>
     </div>
   );

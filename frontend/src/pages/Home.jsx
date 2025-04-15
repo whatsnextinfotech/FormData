@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import PulseCashHomepage from './UserDetail';
+import PulseCashHomepage from './ChooseUs';
 import LoanProcess from '../components/LoanProcess';
+import TestimonialSection from '../components/HomeTestimonial';
 
 export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -15,7 +16,7 @@ export default function Home() {
         {/* Background Image and Overlay */}
         <div className="absolute inset-0 bg-gray-200">
           <img 
-            src="/api/placeholder/1600/900" 
+            src="https://media.gettyimages.com/id/1927881398/photo/group-of-business-persons-talking-in-the-office.jpg?s=612x612&w=0&k=20&c=N0erlm9rQIa_kdBpwxSOa8E1my9bwY_oeN84wZIhais=" 
             alt="Happy couple" 
             className="w-full h-full object-cover"
           />
@@ -32,17 +33,19 @@ export default function Home() {
               <p className="text-white text-base sm:text-lg md:text-xl mb-8 opacity-90">
                 We will match you with a loan program that meet your financial need. In short term liquidity, by striving to make funds available to them within 24 hours of application.
               </p>
-              <button className="bg-green-700 text-white font-medium px-6 py-3 rounded hover:bg-green-800 transition duration-300">
               <Link to="/form" className="">
+              <button className="bg-green-700 text-white font-medium px-6 py-3 rounded hover:bg-green-800 transition duration-300">
+              
            Apply
-          </Link>
-              </button>
+          
+              </button> </Link>
             </div>
           </div>
         </div>
       </div>
       <PulseCashHomepage/>
-      {/* <LoanProcess/> */}
+      <LoanProcess/>
+      <TestimonialSection/>
     </div>
   );
 }

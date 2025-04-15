@@ -7,26 +7,41 @@ import './App.css';
 import Header from './components/Header';
 import Home from './pages/Home';
 
+import About from './pages/About';
+import MortgageLandingPage from './pages/test';
+import Footer from './components/Footer';
+import Service from './pages/service';
+import PersonalLoan from './components/PersonalLoan';
+import Contact from './pages/Contact';
+import PerdayLoan from './components/PerdayLoan';
+
 function App() {
   return (
     <Router>
       <div className="app-container">
         <header className="app-header">
+          {/* <MortgageLandingPage/> */}
          <Header/>
+       
         </header>
         
         <main className="main-content">
           <Routes>
             <Route path="/admin" element={<Dashboard />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/services" element={<Service />} />
+            <Route path="/PersonalLoan" element={<PersonalLoan />} />
+            <Route path="/PerdayLoan" element={<PerdayLoan />} />
+            <Route path="/Contact" element={<Contact />} />
             <Route path="/form" element={<UserForm />} />
             <Route path="/" element={<Home />} />
             {/* <Route path="/edit/:id" element={<UserForm />} /> */}
           </Routes>
         </main>
         
-        {/* <footer className="app-footer">
-          <p>&copy; 2025 Loan Management System</p>
-        </footer> */}
+        <footer className="app-footer">
+          <Footer/>
+        </footer>
       </div>
     </Router>
   );
