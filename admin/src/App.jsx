@@ -2,10 +2,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Dashboard from './pages/Admin';
-import UserForm from './pages/ApplyForm';
+
 import './App.css';
-import Header from './components/Header';
-import Home from './pages/Home';
+import ContactDisplay from './pages/contactUsdata';
+
 
 function App() {
   return (
@@ -18,9 +18,8 @@ function App() {
         <main className="main-content">
           <Routes>
             <Route path="/" element={<Dashboard />} />
-            {/* <Route path="/form" element={<UserForm />} />
-            <Route path="/" element={<Home />} /> */}
-            {/* <Route path="/edit/:id" element={<UserForm />} /> */}
+            <Route path="/contactinfo" element={<ContactDisplay />} />
+       
           </Routes>
         </main>
         

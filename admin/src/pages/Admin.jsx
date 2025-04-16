@@ -384,7 +384,9 @@ function Dashboard() {
       </div> */}
       
       <div className="flex justify-between items-center mb-6">
-        <h2 className="text-2xl font-bold text-gray-800">Loan Management Dashboard</h2>
+        <h2 className="text-2xl font-bold text-gray-800">Loan Management Dashboard</h2> 
+        <div className='flex  gap-12'>
+         <Link to="/contactinfo"  className="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded shadow flex items-center"> Contact Us Data</Link>
         <button 
           onClick={handleDownloadAllUsers}
           className="bg-green-600 hover:bg-green-700 text-white font-medium py-2 px-4 rounded shadow flex items-center"
@@ -395,6 +397,7 @@ function Dashboard() {
           </svg>
           Export All Users (CSV)
         </button>
+        </div>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">

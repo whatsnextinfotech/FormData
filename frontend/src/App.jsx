@@ -1,14 +1,14 @@
 
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Dashboard from './pages/Admin';
+
 import UserForm from './pages/ApplyForm';
 import './App.css';
 import Header from './components/Header';
 import Home from './pages/Home';
 
 import About from './pages/About';
-import MortgageLandingPage from './pages/test';
+
 import Footer from './components/Footer';
 import Service from './pages/service';
 import PersonalLoan from './components/PersonalLoan';
@@ -20,14 +20,14 @@ function App() {
     <Router>
       <div className="app-container">
         <header className="app-header">
-          {/* <MortgageLandingPage/> */}
+       
          <Header/>
        
         </header>
         
         <main className="main-content">
           <Routes>
-            <Route path="/admin" element={<Dashboard />} />
+           
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<Service />} />
             <Route path="/PersonalLoan" element={<PersonalLoan />} />

@@ -36,7 +36,7 @@ export default function PerdayLoan() {
           {/* Text content */}
           <div className="lg:w-1/2">
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-6 leading-tight">
-            Perday Loan
+            Payday Loan
             </h1>
             
             <p className="text-white mb-6 text-base">

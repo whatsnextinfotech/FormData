@@ -18,7 +18,7 @@ const FooterContactSection = () => {
           </p>
           <p className="flex items-center justify-center md:justify-end gap-2 text-lg mt-2">
             <span className="material-icons"><Mail size={18} /></span>
-            info@pulsecash.com
+            pulsecashus@gmail.com
           </p> 
           <p className='py-2'></p>
           <Link to="/form" className="mt-4  bg-white text-[#3f6604] px-6 py-2 rounded hover:bg-gray-100 font-medium">
@@ -60,7 +60,7 @@ const FooterContactSection = () => {
           <h4 className="text-lg font-bold mb-4">Services</h4>
           <ul className="space-y-2 text-sm">
           <Link to="PersonalLoan">  <li>Personal Loan</li></Link>
-          <Link to="perdayLoan">  <li>Perday Loan</li></Link>
+          <Link to="perdayLoan">  <li>Payday Loan</li></Link>
            
           </ul>
         </div>
@@ -71,7 +71,7 @@ const FooterContactSection = () => {
           <ul className="space-y-2 text-sm">
             <li className="flex items-center gap-2">
               <span className="material-icons text-green-800"><Mail size={18} /></span>
-              info@pulsecash.com
+              pulsecashus@gmail.com
             </li>
             <li className="flex items-center gap-2">
               <span className="material-icons text-green-800"><Phone size={18} /></span>

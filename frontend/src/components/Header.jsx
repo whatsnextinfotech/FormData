@@ -61,7 +61,7 @@ export default function Header() {
       {/* <Link to="/PersonalLoan" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Home Loans</Link>
       <Link to="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Car Loans</Link> */}
       <Link to="/PersonalLoan" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Personal Loans</Link>
-      <Link to="/PerdayLoan" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Perday Loans</Link>
+      <Link to="/PerdayLoan" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Payday Loans</Link>
     </div>
   </div>
             {/* <Link to="/faq" className="text-gray-800 hover:text-green-700 font-medium">FAQ's</Link> */}
